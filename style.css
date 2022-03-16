@@ -1,7 +1,3 @@
-* {
-    border: 1px solid red;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -33,6 +29,7 @@ body {
 .herosectext, .headerlink {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 
 .header {
@@ -70,20 +67,29 @@ body {
 
 .container-one {
     display: flex;
+    flex-flow: row nowrap;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .container-one-info {
+    display: flex;
     flex-wrap: wrap;
+    justify-items: flex-start;
+    align-items: center;
+    flex: 1 1 50%;
+    gap: 10px;
 }
 
 .container-one-pic {
+    display: flex;
+    justify-content: center;
     flex: 1 0 50%;
 }
 
 .zuki-headshot {
-    max-width: 100%;
-    height: 100%;
+    max-width: 40%;
 }
 
 .herotext, .herosectext {
@@ -114,15 +120,15 @@ body {
 }
 
 .zukipics {
-    height: 150px;
-    width: auto;
+    height: auto;
+    width: 200px;
     border: 4px solid #3882f6;
     border-radius: 12px;
     box-sizing: border-box;
 }
 
 .info {
-    max-width: 150px;
+    max-width: 200px;
     color: gray;
 }
 
@@ -198,7 +204,11 @@ em {
     border-radius: 8px;
     border-width: 2px;
     border-style: solid;
-    padding: 10px;
+    padding: 10px 20px;
+}
+
+.buttonone {
+    border-color: #1f2937;
 }
 
 .buttontwo {
