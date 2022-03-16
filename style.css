@@ -129,6 +129,7 @@ body {
     border: 8px solid #F9699E;
     border-radius: 50%;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .info {
